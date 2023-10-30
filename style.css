@@ -1,0 +1,62 @@
+
+body {
+    background-color: #fbf9f9;
+}
+.page {
+    display: none;
+}
+.page.active {
+    display: block;
+}
+.jumbotron {
+    background: url('shopping.jpg') no-repeat center center;
+    background-size: cover;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    padding: 150px 0;
+}
+.jumbotron h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.jumbotron p {
+    font-size: 1.5rem;
+}
+.section-content {
+    padding: 20px;
+}
+.contact-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-container h2 {
+    text-align: center;
+}
+.contact-form {
+    margin: 20px 0;
+}
+.contact-form label {
+    display: block;
+    font-weight: bold;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
